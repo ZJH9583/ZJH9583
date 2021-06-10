@@ -1,0 +1,92 @@
+/* logo部分 */
+.log{
+    height: 68px;
+    width: 100%;
+}
+.log-center{
+    height: 68px;
+    width: 1200px;
+    margin: 0px auto;
+}
+/* 这是内容部分 */
+.content{
+    height: 655px;
+    width: 100%;
+}
+.content-center{
+    height: 655px;
+    width: 1200px;
+    margin: 0px auto;
+    position: relative;
+    background-image: url(../imgs/bg.jpg);
+}
+.login-box{
+    width: 338px;
+    height: 500px;
+    border: 1px solid lightblue;
+    position: absolute;
+    bottom: 105px;
+    right: 83px;
+}
+.login-box h5 {
+    font-weight: 400;
+    font-size: 28px;
+    color: #000;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.login-box p{
+    margin-top: 15px;
+    line-height: 38px;
+    position: relative;
+    overflow: hidden;
+}
+.login-box em{
+    position: absolute;
+    top: 12px;
+    left: 11px;
+}
+.username1{
+    display: block;
+    width: 12px;
+    height: 16px;
+}
+.password1{
+    display: block;
+    width: 12px;
+    height: 15px;
+}
+.ti{
+    width: 301px;
+    height: 38px;
+    line-height: 38px;
+    border: 1px solid #e8e8e8;
+    padding-left: 35px;
+    outline: 0;
+    margin-bottom: 25px;
+    margin-left: 15px;
+
+}
+.login-box i{
+    line-height: 23px;
+    font-size: 10px;
+    color: #d00000;
+    display: block;
+    margin-bottom:-7px ;
+    font-weight: 700;
+    padding-left: 18px;
+}
+.login {
+    width: 335px;
+    height: 38px;
+    font-size: 14px;
+    background: lightblue;
+    color: #fff;
+    border: 0;
+    border-radius: 2px;
+    display: block;
+    margin: 35px auto 0;
+    line-height: 38px;
+    text-align: center;
+    cursor: pointer;
+}

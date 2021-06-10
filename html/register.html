@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/register.css">
+</head>
+<body>
+    <div class="log">
+        <div class="log-center">
+            <img src="../imgs/meizu-logo.jpg" width="200px" height="67px">
+        </div>
+    </div>
+    <div class="content">
+        <div class="content-center">
+            <div class="register-box">
+                <h5>魅族注册</h5>
+                <form action="../php/register.php" method="POST">
+                    <div class="box">
+                        <p>
+                            <em class="username1"></em>
+                            <input type="text" class="ti" name="username" placeholder="请输入用户名">
+                        </p>
+                        <i></i>
+                    </div>
+                    <div class="box">
+                        <p>
+                            <em class="password1"></em>
+                            <input type="password" class="ti" name="password" placeholder="请输入密码">
+                            <i></i>
+                        </p>
+                    </div>
+                    <div class="box">
+                        <p>
+                            <em class="password1"></em>
+                            <input type="password" class="ti" name="pwd" placeholder="请再次确认输入密码">
+                            <i></i>
+                        </p>
+                    </div>
+                    <input type="submit" class="register" value="立即注册">
+                </form>
+
+            </div>
+        </div>
+    </div>
+    <script src="../js/register.js"></script>
+    
+</body>
+</html>

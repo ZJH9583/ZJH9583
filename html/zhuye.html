@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/zhuye.css">
+    <link rel="stylesheet" href="../css/swiper-bundle.min.css">
+</head>
+
+<body>
+    <!-- 这是轮播图的部分 -->
+    <div class="swiper">
+        <div class="swiper-center">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="../imgs/pic-3.jpg"></div>
+                    <div class="swiper-slide"><img src="../imgs/pic-4.jpg"></div>
+                    <div class="swiper-slide"><img src="../imgs/pic-5.jpg"></div>
+                    <div class="swiper-slide"><img src="../imgs/pic-6.jpg"></div>
+                    <div class="swiper-slide"><img src="../imgs/pic-7.jpg"></div>
+                    <div class="swiper-slide"><img src="../imgs/pic-8.jpg"></div>
+                    <div class="swiper-slide"><img src="../imgs/pic-9.jpg"></div>
+                </div>
+                <!-- 如果需要分页器 -->
+                <div class="swiper-pagination"></div>
+        
+                <!-- 如果需要导航按钮 -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+        
+                <!-- 如果需要滚动条 -->
+                <!-- <div class="swiper-scrollbar"></div> -->
+            </div>
+        </div>
+    </div>
+    
+    <script src="../js/swiper-bundle.min.js"></script>
+    <script>
+        var mySwiper = new Swiper('.swiper-container', {
+            direction: 'horizontal', // 垂直切换选项
+            loop: true, // 循环模式选项
+            autoplay: true,
+
+            // 如果需要分页器
+            pagination: {
+                el: '.swiper-pagination',
+            },
+
+            // 如果需要前进后退按钮
+              navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+              },
+
+            // 如果需要滚动条
+            //   scrollbar: {
+            //     el: '.swiper-scrollbar',
+            //   },
+        })
+    </script>
+    <!-- 这是导航条部分 -->
+    <div class="header">
+        <div class="header-center">
+            <div class="header-meizu-logo">
+                <img src="../imgs/pic.png">
+            </div>
+            <div class="ul-display">
+                <ul class="header-ul">
+                    <li class="lishouji"> 
+                        <a target="_blank" href="./list.html" style="color:white;">手机</a>
+                    </li>
+                    <li>
+                        <a target="_blank " href="./list.html" style="color:white;">Lipro</a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="./list.html" style="color:white;">声学</a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="./list.html" style="color:white;">配件</a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="./list.html" style="color:white;">生活</a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="./list.html" style="color:white;">Flyme</a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="./list.html" style="color:white;">服务</a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="./list.html" style="color:white;">专卖店</a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="./list.html" style="color:white;">社区</a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="./list.html" style="color:white;">企业服务</a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="./list.html" style="color:white;">APP下载</a>
+                    </li>
+                </ul>
+                <div class="header-menu">
+                    <div class="header-display show" >
+                        <ul class="menu1-shouji">
+                            
+                        </ul>
+                    </div>
+                    <!-- <div class="header-display">
+                        <ul class="menu1-lipro">
+                            <li>
+                                <img src="../imgs/pic-43.jpg">
+                                <p>魅族18【踏雪】</p>
+                                <span>3999元</span>
+                            </li>
+                            <li>
+                                <img src="../imgs/pic-43.jpg">
+                                <p>魅族18【踏雪】</p>
+                                <span>3999元</span>
+                            </li>
+                            <li>
+                                <img src="../imgs/pic-43.jpg">
+                                <p>魅族18【踏雪】</p>
+                                <span>3999元</span>
+                            </li>
+                            <li>
+                                <img src="../imgs/pic-43.jpg">
+                                <p>魅族18【踏雪】</p>
+                                <span>3999元</span>
+                            </li>
+                            <li>
+                                <img src="../imgs/pic-43.jpg">
+                                <p>魅族18【踏雪】</p>
+                                <span>3999元</span>
+                            </li>
+                            <li>
+                                <img src="../imgs/pic-43.jpg">
+                                <p>魅族18【踏雪】</p>
+                                <span>3999元</span>
+                            </li>
+                            <li>
+                                <img src="../imgs/pic-43.jpg">
+                                <p>魅族18【踏雪】</p>
+                                <span>3999元</span>
+                            </li>
+                            <li>
+                                <img src="../imgs/pic-43.jpg">
+                                <p>魅族18【踏雪】</p>
+                                <span>3999元</span>
+                            </li>
+                        </ul>
+                    </div> -->
+                </div>
+                    
+            </div>
+            <div class="header-search">
+                <input type="text" placeholder="魅族18">
+            </div>
+            <div class="header-fdj">
+                <img src="../imgs/pic-headerfangjing.png">
+            </div>
+            <div class="header-users">
+                
+            </div>
+            <div class="header-cart">
+                <a href="./cart.html">
+                    <img src="../imgs/pic-headergouwuche.png">
+                </a>
+               
+                
+            </div>
+        </div>
+    </div>
+    <script src="../js/zhuye.js"></script>
+    <!-- 这是广告部分 -->
+    <div class="container-adv">
+        <div class="container-adv-center">
+            <ul>
+                <li>
+                    <a target="_blank"><img src="../imgs/pic-10.jpg"><em>魅族 618 心动狂欢节</em>
+                        <p>全场包邮 签到赢耳机</p>
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank"><img src="../imgs/pic-11.png"><em>魅族 18 Pro</em>
+                        <p>立省300 + 12 期免息 + 赠液态壳</p>
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank"><img src="../imgs/pic-12.png"><em>5G之家</em>
+                        <p>电信套餐享大额补贴</p>
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank"><img src="../imgs/pic-13.jpg"><em>mCycle</em>
+                        <p>以旧换新</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 这是广告细分部分-手机 -->
+    <div class="container-adv-shouji">
+        <div class="adv-shouji-center">
+            <div class="shouji-section-title">
+                <h3>
+                    手机
+                </h3>
+            </div>
+            <div class="shouji-section-adv">
+                <a><img src="../imgs/pic-14.jpg" alt=""></a>
+            </div>
+            <div class="shouji-section-row">
+                <ul class="shouji-section-row-ul">
+                    <li>
+                        <div class="shouji-big">
+                            <a >
+                                <img src="../imgs/pic-15.png" alt="" width="460px" height="460px">
+                                <p class="shouji-big-p1">魅族18</p>
+                                <p class="shouji-big-p2">限时领券立省200|赠液态壳</p>
+                                <p class="shouji-big-p3">￥3999</p>
+                                
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="shouji-big">
+                            <a >
+                                <img src="../imgs/pic-16.png" alt="" width="460px" height="460px">
+                                <p class="shouji-big-p1">魅族18pro</p>
+                                <p class="shouji-big-p2">限时领券立省300|赠液态壳</p>
+                                <p class="shouji-big-p3">￥4999</p>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="shouji-small">
+                            <a >
+                                <img src="../imgs/pic-17.png" alt="" width="230px" height="230px">
+                                <p class="shouji-small-p1">魅族17「AG梦幻独角兽」</p>
+                                <p class="shouji-small-p2">高通骁龙865|120 Hz尝鲜模式</p>
+                                <p class="shouji-small-p3">￥3699</p>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="shouji-small">
+                            <a >
+                                <img src="../imgs/pic-18.png" alt="" width="230px" height="230px">
+                                <p class="shouji-small-p1">魅族17「松深入墨」</p>
+                                <p class="shouji-small-p2">高通骁龙865|120 Hz尝鲜模式</p>
+                                <p class="shouji-small-p3">￥3699</p>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="shouji-small">
+                            <a >
+                                <img src="../imgs/pic-19.png" alt="" width="230px" height="230px">
+                                <p class="shouji-small-p1">魅族17pro「定白」</p>
+                                <p class="shouji-small-p2">限时领券至高立省1200+12期免息</p>
+                                <p class="shouji-small-p3">￥4299</p>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="shouji-small">
+                            <a >
+                                <img src="../imgs/pic-20.png" alt="" width="230px" height="230px">
+                                <p class="shouji-small-p1">魅族17pro「乌金」</p>
+                                <p class="shouji-small-p2">限时领券至高立省1200+12期免息</p>
+                                <p class="shouji-small-p3">￥4299</p>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+                
+
+            </div>
+        </div>
+    </div>
+    <!-- 这是广告细分部分-配件 -->
+    <div class="container-adv-peijian">
+        <div class="adv-peijian-center">
+            <div class="peijian-section-title">
+                <h3>
+                    智能配件
+                </h3>
+            </div>
+            <div class="peijian-section-adv">
+                <a><img src="../imgs/pic-92.jpg" alt=""></a>
+            </div>
+            <div class="peijian-section-row">
+                <ul class="peijian-section-row-ul">
+                   
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- 这是尾部部分 -->
+    <div class="meizu-footer">
+        <div class="footer-center">
+            <div class="footer-center-upper">
+                <ul class="footer-service">
+                    <li><a target="_blank">
+                            <img src="../imgs/pic-29.png">
+                            <span>满80免运费</span>
+                        </a>
+                    </li>
+                    <li><a target="_blank">
+                            <img src="../imgs/pic-30.png">
+                            <span>满80免运费</span>
+                        </a>
+                    </li>
+                    <li><a target="_blank">
+                            <img src="../imgs/pic-31.png">
+                            <span>满80免运费</span>
+                        </a>
+                    </li>
+                    <li><a target="_blank">
+                            <img src="../imgs/pic-32.png">
+                            <span>满80免运费</span>
+                        </a>
+                    </li>
+                    <li><a target="_blank">
+                            <img src="../imgs/pic-33.png">
+                            <span>满80免运费</span>
+                        </a>
+                    </li>
+                    <li><a target="_blank">
+                            <img src="../imgs/pic-34.png">
+                            <span>满80免运费</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="footer-hotline">
+                    <span>周一至周日 8:00-20:00</span>
+                    <p class="tel">400-788-3333</p>
+                    <a class="onlive-btn" target="_blank">在线客服</a>
+                </div>
+            </div>
+            <hr class="footer-hr">
+            <div class="footer-center-down">
+                <div class="footer-info-left">
+                    <ul class="clearfix">
+                        <li><a target="_blank">了解魅族</a></li>
+                        <li><a target="_blank">加入我们</a></li>
+                        <li><a target="_blank">联系我们</a></li>
+                        <li><a target="_blank">Flyme</a></li>
+                        <li><a target="_blank">魅族社区</a></li>
+                        <li><a target="_blank">天猫旗舰店</a></li>
+                        <li><a target="_blank">问题反馈</a></li>
+                        <li><a target="_blank">线上销售授权名单公示</a></li>
+                        <li><a target="_blank">出版物经营许可证</a></li>
+                        <li><a>简体中文</a></span></li>
+                    </ul>
+                    <div class="footer-certificate">
+                        ©2020 Meizu Telecom Equipment Co., Ltd. All rights reserved.&nbsp;&nbsp;&nbsp;&nbsp;<a
+                            target="_blank" href="https://beian.miit.gov.cn/#/Integrated/index"
+                            hidefocus="true">粤ICP备13003602号</a><a target="_blank" href="/static/footer/images/icp2.jpg"
+                            hidefocus="true">合字B2-20170010 </a><a target="_blank"
+                            href="/static/footer/images/com_licence.jpg" hidefocus="true">营业执照</a><a target="_blank"
+                            href="https://www.meizu.com/legal.html" hidefocus="true">法律声明</a><a target="_blank"
+                            href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44049102496009"
+                            hidefocus="true"><span class="footer-info-record" target="_blank" href=""><i></i>粤公网安备
+                                44049102496009 号</span></a>
+                    </div>
+
+                </div>
+                <div class="footer-subscribe">
+                    <img src="../imgs/pic-84.png" alt="">
+                    <img src="../imgs/pic-86.png" alt="">
+                    <img src="../imgs/pic-88.png" alt="">
+                    <img src="../imgs/pic-90.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../jQuery/jquery-3.6.0.js"></script>
+    <script src="../js/ajax.js"></script>
+    <script src="../js/cookie.js"></script>
+    <script src="../js/zhuye.js"></script>
+</body>
+
+</html>
